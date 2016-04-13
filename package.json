@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-GRADOII-PL/ajax-ecma6-modules-files-adrian_adexe"
   },
-  "homepage": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  "homepage": "https://github.com/ULL-ESIT-GRADOII-PL",
   "dependencies": {
 	"jquery": "*",
     "underscore": "*",
