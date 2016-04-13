@@ -1,40 +1,22 @@
-# Práctica 2: Comma separated values (CSV) with AJAX
+# ETSII ULL Grado de Informatica
 
-## jQuery.get( url [, data ] [, success ] [, dataType ] )
-* url
-  * Type: String
-  * A string containing the URL to which the request is sent.
-* data
-  * Type: PlainObject or String
-  * A plain object or string that is sent to the server with the request.
-* success
-  * Type: Function( PlainObject data, String textStatus, jqXHR jqXHR )
-  * A callback function that is executed if the request succeeds. 
-    Required if `dataType` is provided, but you can use `null` or `jQuery.noop` as a placeholder.
-* dataType
-  * Type: String
-  * The type of data expected from the server. Default: Intelligent Guess (xml, json, script, text, html).
+## Práctica 8:
 
-## jQuery.get( [settings ] )
-* settings
-  * Type: PlainObject
-  * A set of key/value pairs that configure the Ajax request. 
-  * All properties except for `url` are optional. 
-  * A default can be set for any option with `$.ajaxSetup()`.
+### Comma Separated Values utilizando AJAX
 
-This is a shorthand Ajax function, which is equivalent to:
+Los archivos CSV (del inglés comma-separated values) son un tipo de documento en formato abierto sencillo para representar datos en forma de tabla, en las que las columnas se separan por comas.
 
-```javascript
-$.ajax({
-  url: url,
-  data: data,
-  success: success,
-  dataType: dataType
-});
-```
+* [URL del despliegue en heroku](https://ajaxcsv.herokuapp.com/)
+* [Descripción de la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189369)
+* [Enlace organización g++](https://plus.google.com/u/1/communities/112621772140747803691)
 
-The success callback function is passed the returned data, which will be an XML root element, text string, JavaScript file, or JSON object, depending on the MIME type of the response. It is also passed the text status of the response.
+### Desarrolladores
 
-# Heroku 
-https://cvsajax.herokuapp.com/
+* [Adrián Calzadilla González](adcalzadilla.github.io)
+* [Adexe Sabina Pérez](alu0100769609.github.io)
 
+### Enlaces de interés
+
+* [Ajax](http://www.w3schools.com/ajax/)
+* [Jquery](https://jquery.com/)
+* [ECMA6](https://github.com/lukehoban/es6features/blob/master/README.md)
