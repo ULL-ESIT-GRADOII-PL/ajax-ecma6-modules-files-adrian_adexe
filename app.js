@@ -13,7 +13,6 @@ app.use(expressLayouts);
 
 app.use(express.static(__dirname + '/public'));
 
-//const calculate = require('XXXXXXXXXXXXXXXXXX');
 const calculate = require('./models/calculate.js');
 
 app.get('/', (request, response) => {
@@ -21,7 +20,6 @@ app.get('/', (request, response) => {
 });
 
 app.get('/csv', (request, response) => {
-//XXXXXXXXXXXXXXX XXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXX
   response.send({ "rows": calculate(request.query.input) });
 });
 

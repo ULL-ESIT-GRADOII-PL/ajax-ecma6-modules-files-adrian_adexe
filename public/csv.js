@@ -73,21 +73,13 @@ $(document).ready(() => {
     }
 
     /* Request AJAX para que se calcule la tabla */
-    //XXXXXXXXXXXXXXXXXX XX XX X
     $("#parse").click( () => {
-        //XX XXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX X XXXXXXXXXXXXXXX
         if (window.localStorage) localStorage.original = original.value;
-        //XXXXXXXXXXXXX
         $.get("/csv",
-          //X XXXXXX XXXXXXXXXXXXXX XX
           { input: original.value },
-          //XXXXXXXXXX
           fillTable,
-          //XXXXXX
           'json'
-        //XX
         );
-   //XXX
    });
 
    /* botones para rellenar el textarea */
