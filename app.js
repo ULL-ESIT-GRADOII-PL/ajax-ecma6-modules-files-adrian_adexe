@@ -17,12 +17,12 @@ app.use(express.static(__dirname + '/public'));
 const calculate = require('./models/calculate.js');
 
 app.get('/', (request, response) => {
-  response.render('index', { title: 'CSV' });
+  response.render('index', { title: 'CSV_AA' });
 });
 
 app.get('/csv', (request, response) => {
-
-  response.render ('csv', {title:'CSV' })
+//XXXXXXXXXXXXXXX XXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXX
+  response.send({ "rows": calculate(request.query.input) });
 });
 
 app.listen(app.get('port'), () => {
