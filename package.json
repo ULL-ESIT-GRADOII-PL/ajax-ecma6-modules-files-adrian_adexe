@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/ajax-ecma6-modules-files-adrian_adexe"
   },
   "keywords": [
     "csv"
   ],
-  "author": XXXXXXXXXX
+  "author": "Adexe Sabina, Adrián Calzadilla",
   "contributors": [],
   "license": "ISC",
   "bugs": {
-    "url": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    "url": "https://github.com/ULL-ESIT-GRADOII-PL/ajax-ecma6-modules-files-adrian_adexe"
   },
   "homepage": XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
   "dependencies": {
