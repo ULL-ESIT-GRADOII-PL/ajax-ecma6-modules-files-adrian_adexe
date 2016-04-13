@@ -49,15 +49,15 @@ const handleDragFileSelect = (evt) => {
   evt.stopPropagation();
   evt.preventDefault();
 
-  XXX XXXXX X XXXXXXXXXXXXXXXXXXXXXXX XX XXXXXXXX XXXXXXX
+  var files = evt.dataTransfer.files;
 
-  XXX XXXXXX X XXX XXXXXXXXXXXXX
-  XXXXXXXXXXXXX X XXX XX X
+  var reader = new FileReader();
+  reader.onload = (e) => {
 
-    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-    XXXXXXXXXXXXXXXXXXXXXXXXXXX X XXXXXXXX
-  XX
-  XXXXXXXXXXXXXXXXXXXXXXXXXXX
+    $("#original").val(e.target.result);
+    evt.target.style.background = "white";
+  };
+  reader.readAsText(files[0])
 }
 
 const handleDragOver = (evt) => {
@@ -82,9 +82,9 @@ $(document).ready(() => {
         XX
    XXX
    /* botones para rellenar el textarea */
-   XXXXXXXXXXXXXXXXXXXXXXXXX XXXXX XX X
-     XXXXXXXXXXX XX XX X XXXXXXXXXXXXXXXXXXXXXXXXXXX XXX
-   XXX
+   $('button.example').each( (_,y) => {
+     $(y).click( () => { dump(`${$(y).text()}.txt`); });
+   });
 
     // Setup the drag and drop listeners.
     //var dropZone = document.getElementsByClassName('drop_zone')[0];
