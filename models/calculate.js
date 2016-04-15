@@ -10,7 +10,8 @@ const calculate = (original) => {
       return field.replace(/,\s*$/, '').
                    replace(/^\s*"/, '').
                    replace(/"\s*$/, '').
-                   replace(/\\"/, '"');
+                   replace(/\\"/g, '"').
+                   replace(/\\,/g, ',');
     };
 
     for (let t in lines) {
