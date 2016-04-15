@@ -28,10 +28,6 @@ const calculate = (original) => {
         let rowclass = error? 'error' : 'legal';
         r.push({ items: result, type: rowclass });
       }
-      else {
-        let errmsg = 'La fila "' + temp + '" no es un valor de CSV permitido.';
-        r.push({items: errmsg.split("").splice(commonLength), type: 'error'});
-      }
     }
     return r;
   };
