@@ -9,6 +9,7 @@ Los archivos CSV (del inglés comma-separated values) son un tipo de documento e
 * [URL del despliegue en heroku](https://ajaxcsv.herokuapp.com/)
 * [Descripción de la práctica en el campus virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=189369)
 * [Enlace organización g++](https://plus.google.com/u/1/communities/112621772140747803691)
+* [CSV tests utilizando blanket](https://ull-esit-gradoii-pl.github.io/ajax-ecma6-modules-files-adrian_adexe/public/tests)
 
 ### Desarrolladores
 
